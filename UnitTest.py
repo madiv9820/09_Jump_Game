@@ -4,9 +4,7 @@ from Solution import Solution
 
 class UnitTest(unittest.TestCase):
     def setUp(self):
-        self.__testcases = {
-            ([2,3,1,1,4], True), ([3,2,1,0,4], False)
-        }
+        self.__testcases = (([2,3,1,1,4], True), ([3,2,1,0,4], False))
         self.__solution = Solution()
         return super().setUp()
     
